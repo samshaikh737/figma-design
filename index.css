@@ -223,6 +223,7 @@ section.profile_bottom {
     width: 1920px;
     height: 615px;
     margin-top: 147px;
+    position: relative;
 }
 
 section.profile_bottom .profile_left {
@@ -306,6 +307,10 @@ section.profile_bottom .profile_left .profile_container .profile .desc {
     text-align: center;
 
     color: #000000;
+}
+section.profile_bottom .img-container{
+    position: absolute;
+    left: 45%;
 }
 
 section.profile_bottom .profile_right {
