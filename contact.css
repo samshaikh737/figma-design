@@ -1,0 +1,102 @@
+.contact_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.contact_container h2 {
+    width: 640px;
+    height: 109px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 74px;
+    line-height: 111px;
+    color: #000000;
+    text-align: center;
+
+    margin: 32px 0px;
+    margin-bottom: 0;
+}
+
+.contact_container p {
+    width: 836px;
+    height: 108px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #7B7B7B;
+}
+
+#background {
+    position: absolute;
+    width: 1920px;
+    height: 1356px;
+    left: 0px;
+    top: 140px;
+    z-index: -1;
+    background: #FFFFFF;
+}
+
+
+.contact_form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 5%;
+    padding-top: 2%;
+}
+
+.contact_form .left img {
+    width: 720px;
+    height: 547px;
+}
+
+.contact_form .right{
+    width: 500px;
+}
+
+.contact_form .right .input_container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.contact_form .right .input_container label {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.contact_form .right .input_container input,
+.contact_form .right .input_container textarea {
+    background: #EEEEEE;
+    box-shadow: 1px 1px 4px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+
+.contact_form .right .input_container textarea {
+    height: 150px;
+}
